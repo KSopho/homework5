@@ -20,14 +20,13 @@ body{
 header{
     width: 100%;
     height: 94px;
-    background-color: #000000;
-         
+    background-color: #000000;         
 }
 
 header h1{   
     width: 70px;
     background-image: url(../img/music-note.png);
-    background-size: 100%;
+    background-size: 100%;    
     position: absolute;   
     top: 12px;
     left: 100px; 
@@ -39,7 +38,7 @@ header h1{
     height: 70px;       
  }
 
-.headernav{
+.headernav{   
     padding-left: 338px;
     padding-top: 34px;      
  }
@@ -48,42 +47,44 @@ header h1{
     float: left;    
     padding: 5px 10px;
     color: #ffffff;
-    font-size: 18px;    
-
+    font-size: 18px;
  }
 
 /* MAIN */
 
-
+.indexmain{
+   margin: 50px 50px 0 108px;
+}
 
  .firsth2, .secondh2{    
     color: #000000;
     font-size: 24px;
  }
 
- .firsth2{
-    margin: 144px auto 50px 108px;
+ .firsth2{   
+    margin: 0 auto 50px;
  }
 
  .secondh2{
-    clear: both;
-    margin: 0 auto 32px 108px;
+    clear: both;    
+    margin: 0 auto 32px;
  }
-
-
+ 
  .track{
     float: left;
     width: 300px;
-    height: 270px;   
-               
+    height: 270px;
+    margin-right: 138px;
+    margin-bottom: 22px;
  }
 
- .track1, .track2{
-    margin-right: 138px;
-}
+.track1{
+    margin-bottom: 50px;
+} 
 
-   
-
+ .track2{ 
+   margin-bottom: 100px;
+} 
  
   .hearticon{
     width: 50px;
@@ -91,23 +92,18 @@ header h1{
     position: absolute;
     top: -4px;
     right: 0;
-    background-image: url(../img/like.ico);
+    background-image: url(../img/like.png);
     background-size: 100%;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
  }
  
-
  .borderdiv{
     position: relative;
     width: 300px;
     height: 248px;
     border: 1px solid black;
-    margin-bottom: 8px;    
-
+    margin-bottom: 8px;
  }
-
- 
 
 .soundpics1, .soundpics2{   
     width: 270px;
@@ -115,11 +111,10 @@ header h1{
     background-image: url(../img/sound.png);
     background-size: 25%;
     background-repeat: repeat-x;  
-   } 
+} 
     
 .soundpics1{
    margin: 58px auto 22px;       
-      
  } 
 
 .track h3{
@@ -130,26 +125,16 @@ header h1{
 
 .track h4{
     font-size: 14px;    
-    margin-left: 12px;
-    
+    margin-left: 12px;    
 }
 
  .track a{
     font-size: 12px;
     color: #000000;          
  }
-
-
- .hitscontainer1, .hitscontainer2{
-    width: 1176px;
-    height: 262px;
-    margin-left: 108px;
-     
- }
  
  .hitscontainer1{
     margin-bottom: 22px;
-
  }
  .hitscontainer2{
     margin-bottom: 50px;
@@ -186,18 +171,14 @@ header h1{
 
 
  /* FOOTER */
- 
-
 
 footer{
+   clear: both;
     width: 100%;
     height: 354px;
     background-color: #000000;
-    margin-top: 100px;
-    padding: 20px;
-   
+    padding: 20px;   
 }
-
 
  footer h1{
     width: 150px;
@@ -205,8 +186,7 @@ footer{
     background-image: url(../img/music-note.png);
     background-size: 100%;
     background-repeat: no-repeat;    
-    margin: 0 auto;  
-
+    margin: 0 auto;
 }
 
 footer h1 a{
@@ -215,7 +195,6 @@ footer h1 a{
     height: 150px;
 }
 
-
 .footernav{      
      margin-top: 26px;    
      text-align: center; 
@@ -223,8 +202,7 @@ footer h1 a{
 
 .footernav a{
     color: #ffffff;
-    font-size: 18px;       
-
+    font-size: 18px;    
 }
 
  footer p{
@@ -233,10 +211,9 @@ footer h1 a{
     color: #ffffff;
     text-align: center;
  }
-   
-
-.playlistmain{
-   margin: 50px auto 144px 108px;
+  
+.playlistmain{  
+   padding: 50px 50px 0 108px;
 }
 
 .playlistcont{
@@ -245,27 +222,23 @@ footer h1 a{
    margin-right: 156px;
    margin-bottom: 46px;
    float: left;
-
 }
 
 .playlistcont h3{
    color: #000000;
    font-size: 24px;   
    margin-bottom: 50px;
-
 }
 
 .playlistcont p{
    color: #000000;
    font-size: 18px;  
    margin-bottom: 8px;
-
 }
 
 .soundpics2{
    clear: both;
    margin: 0 auto 106px;
-
 }
 
  .playlistcont2{
@@ -276,8 +249,8 @@ footer h1 a{
  .thanks{
    color: #000000;
    font-size: 36px;
-   text-align: center;
-   margin-bottom: 142px;
+   text-align: center;   
+   margin-bottom: 144px;   
  }
 
 
